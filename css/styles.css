@@ -20,6 +20,12 @@ h1 {
   color: white;
  }
 
+/* h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+ } */
 
 /* NAVBAR  */
 
@@ -85,3 +91,33 @@ h1 {
 .fa-solid:hover {
 color: #ff4c68;
 }
+
+
+/* TESTIMONIALS */
+
+#testimonials {
+padding: 7% 15%;
+/* text-align: center; */
+background-color: #ff4c68;
+color: white;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+} 
+
+.double-quotes {
+  
+  font-size: 5rem;
+}
+
+.Testimonial-statement {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
