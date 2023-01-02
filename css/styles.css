@@ -11,21 +11,10 @@ font-family: "Montserrat";
     padding: 3% 15% 7%;
 }
 
-h1 {
+h1 , h2 ,h3, p {
   font-family: "Montserrat";
-  font-size: 4.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-
-  color: white;
  }
 
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.5;
- }
 
 /* NAVBAR  */
 
@@ -62,6 +51,14 @@ h2 {
   transform: rotate(25deg);
   position: absolute;
   right: 25%;
+}
+
+.Hero-statement{
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+
+  color: white;
 }
 
 /* FEATURE PAGE */
@@ -163,6 +160,7 @@ color: white;
 
 .pricing-card {
   padding: 3% 2%;
+  box-shadow: 0 0 100px #ff4c68f2;
 }
 
 .card {
@@ -170,6 +168,29 @@ color: white;
   padding-bottom: 5%;
 }
 
+.Pricing-statement{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ff4c68;
+}
+
+.plan-statement {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.dog-bread {
+  color: #ff4c68;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.Pricing-sub{
+  font-size:1.5rem;
+  font-weight: 600;
+}
 
 /* CTA SECTION  */
 
