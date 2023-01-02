@@ -8,7 +8,7 @@ font-family: "Montserrat";
  }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -20,12 +20,12 @@ h1 {
   color: white;
  }
 
-/* h2 {
+h2 {
   font-family: "Montserrat";
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.5;
- } */
+ }
 
 /* NAVBAR  */
 
@@ -58,14 +58,19 @@ h1 {
 /* HERO-IMAGE */
 
 .title-image {
-  width:60%;
+  width:20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 /* FEATURE PAGE */
 
-.feature-row {
+#features {
+  background-color: white;
   padding: 7% 15%;
+  position: relative;
+  /* z-index: 1;         If one div is positioned and other is jot then the positioned will be at the top */
 }
 
 .feature_no {
@@ -83,12 +88,12 @@ h1 {
   color: #8f8f8f;
 }
 
-.fa-solid{
+.features-icon{
   color: #f27b7b;
   padding-bottom: 3.5%;
 }
 
-.fa-solid:hover {
+.features-icon:hover {
 color: #ff4c68;
 }
 
@@ -145,4 +150,96 @@ color: white;
   font-family: "Montserrat";
   font-size: 2rem;
   font-weight: 500;
+  display: block;
+}
+
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.card {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+/* CTA SECTION  */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 4% 22%;
+  text-align: center;
+}
+
+.cta-statement{
+  font-family: "Montserrat";
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+  color: white;
+}
+
+.cta-buttons{
+  margin:3% 1% ;
+}
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.social-icons {
+  padding: 1%;
+}
+
+.footer-statment{
+  font-size: 1.5rem;
+}
+
+
+
+/* MEDIA QUERIES  */
+
+/* Styling below 1384px  */
+@media (max-width:1384px){
+  h1{
+    margin-right: 2%;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    width: 70%;
+    position: relative;
+    left: 10%;
+  }
+}
+
+/* Styling below 1093px and above 992px range  */
+@media (max-width:1093px) and (min-width:992px) {         
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+
+/* Styling below 991px  */
+@media (max-width:991px) {
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    width: 50%;
+    left:0;
+  }
 }
