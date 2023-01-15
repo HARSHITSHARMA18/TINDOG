@@ -4,9 +4,23 @@
 A Tinder for Dogs type website implemented using majorly bootsrap
 
 
-## Screenshots
+# USER INTERFACE
 
-![App Screenshot](https://github.com/HARSHITSHARMA18/TINDOG/blob/main/images/screenshot.png)
+<img src="images/screenshot.png" alt="Alt text" title="DESKTOP VIEWPORT ">
+
+## RESPONSIVE
+<table>
+  <tr>
+    <td>DESKTOP VIEWPORT</td>
+     <td>SMARTPHONE VIEWPORT</td>
+  </tr>
+  <tr>
+    <td><img src="images/screenshot.png" alt="Alt text" title="DESKTOP VIEWPORT" width=450 height=1000 ></td>
+    <td><img  src="images/Tindog_Phone.jpg" alt="Alt text" title="SMARTPHONE VIEWPORT"></td>
+  </tr>
+ </table>
+
+
 
 ## 🚀 ABOUT ME
 Hi 👋, I'm Harshit Sharma
