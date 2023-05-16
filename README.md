@@ -1,7 +1,7 @@
 
 # TINDOG
 
-A Tinder for Dogs type website implemented using majorly bootsrap
+A Tinder for Dogs type website implemented using majorly bootstrap
 
 
 # USER INTERFACE
